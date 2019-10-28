@@ -1,4 +1,5 @@
 import React from 'react';
+import TodoForm from "./components/TodoComponents/TodoForm";
 
 const data = [
 
@@ -26,8 +27,8 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      todos: data
-    };
+      tasks: data
+    }
   }
 
   addItem = task => {
@@ -37,17 +38,18 @@ class App extends React.Component {
       completed: false
     };
     this.setState({
-      todos: [...this.state.todos, newItem] //spreading in todos - adding new item to list//
-    })
+      tasks: [...this.state.tasks, newItem]
+    });
   };
 
   toggleCompleted = id => {
+
     this.setState({
-      todos: this.state.todos.map(item => {
+      tasks: this.state.tasks.map(item => {
         if (item.id === id) {
           return {
             ...item,
-            completed: !item.done
+            purchased: !item.purchased
           };
         } else {
           return item;
@@ -57,10 +59,16 @@ class App extends React.Component {
 
   };
 
+
   render() {
     return (
-      <div>
+      <div className="App">
+        <div className="header">
         <h2>Get Shit Done!</h2>
+
+        <TodoForm />
+      
+        </div>
       </div>
     );
   }
