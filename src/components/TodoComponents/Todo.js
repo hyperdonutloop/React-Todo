@@ -7,9 +7,9 @@ const Item = props => {
       onClick={() => props.toggleCompleted(props.item.id)}
     >
       <p>{props.item.task}</p>
-      
+
     </div>
-        
+
   )
 }
 

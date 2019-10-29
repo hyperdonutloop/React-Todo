@@ -1,13 +1,37 @@
 .item {
-    background-color: #e64944;
-    width: 45%;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* max-width: 20%; */
+    text-align: center;
     margin: 4px 0;
-    padding-left: 8px;
+    padding-left: 10px;
     cursor: pointer;
+    color: whitesmoke;
   }
   
   .itemcompleted {
-    background-color: #d17d7c;
-    text-decoration: line-through;
+    max-width: 20%;
+    
+    color: whitesmoke;
+    text-decoration: line-through; 
   }
+
+  .clear-btn {
+    border-radius: 5px;
+  }
+
+  .header {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+
+  }
+
