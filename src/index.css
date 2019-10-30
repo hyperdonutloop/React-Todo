@@ -1,0 +1,8 @@
+body {
+    background-color: #282c34;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}

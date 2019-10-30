@@ -1,0 +1,66 @@
+.item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4px 0;
+    padding-left: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  
+  .itemcompleted {
+    max-width: 20%;
+    
+    color: whitesmoke;
+    text-decoration: line-through; 
+  }
+
+  .clear-btn {
+    border-radius: 5px;
+  }
+
+  .header {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .tasks {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .input-box {
+    padding: 2px;
+  }
+  
+  label {
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 5px;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  h2 {
+    color: #FFFFFF;
+  }
+
+  .add-button {
+    margin: 10px;
+  }
