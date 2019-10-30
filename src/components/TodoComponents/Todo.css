@@ -1,7 +1,6 @@
 .item {
     display: flex;
     justify-content: center;
-    /* max-width: 20%; */
     text-align: center;
     margin: 4px 0;
     padding-left: 10px;
@@ -35,3 +34,33 @@
 
   }
 
+  .tasks {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .input-box {
+    padding: 2px;
+  }
+  
+  label {
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 5px;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  h2 {
+    color: #FFFFFF;
+  }
+
+  .add-button {
+    margin: 10px;
+  }

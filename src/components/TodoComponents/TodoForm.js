@@ -24,6 +24,7 @@ class TodoForm extends React.Component {
     render() {
 
       return (
+        <div className="tasks">
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="item">New Task</label>
             <input
@@ -32,10 +33,12 @@ class TodoForm extends React.Component {
                 id="item"
                 value={this.state.newItem}
                 onChange={this.handleChanges}
+                className="input-box"
+                placeholder="..."
             />
-          <button>Add Task!</button>
+          <button className="add-button">Add Task!</button>
         </form>
-
+        </div>
         )
 
 
